@@ -41,6 +41,12 @@ namespace JS_Golf
         }
 
 
+
+
+
+
+
+
         public static void PlayGolf()
         {
             double swingAngle;
@@ -49,6 +55,8 @@ namespace JS_Golf
             double playLength;              //How much of the course is left to play
             int numberOfSwings = 0;
             bool correctEntry;
+
+            List<double> swings = new List<double>();
 
             Random courseRandomizer = new Random();
             playLength = Convert.ToDouble(courseRandomizer.Next(300, 600));            //generate course
@@ -90,7 +98,7 @@ namespace JS_Golf
                 playLength = Math.Abs(playLength - shotLength);
 
                 numberOfSwings++;
-
+                swings.Add(shotLength);
 
                 if (numberOfSwings > 10)
                 {
@@ -105,8 +113,16 @@ namespace JS_Golf
 
             }
             while (playLength > 0.01);
+            Console.WriteLine();
+            Console.WriteLine($"The ball is in! You completed this course in {numberOfSwings} swings. The distance of each swing, in order:");
 
-            Console.WriteLine($"The ball is in! You completed this course in {numberOfSwings} swings.");
+            Console.WriteLine();
+
+            foreach (double item in swings)
+            {
+                Console.WriteLine($"{Math.Round(item,2)} meters");
+            }
+
             Console.ReadLine();
 
 
