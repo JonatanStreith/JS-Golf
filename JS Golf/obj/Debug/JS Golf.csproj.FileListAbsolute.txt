@@ -1,0 +1,7 @@
+C:\Users\Lexicon\source\repos\JS Golf\JS-Golf\JS Golf\bin\Debug\JS Golf.exe.config
+C:\Users\Lexicon\source\repos\JS Golf\JS-Golf\JS Golf\bin\Debug\JS Golf.exe
+C:\Users\Lexicon\source\repos\JS Golf\JS-Golf\JS Golf\bin\Debug\JS Golf.pdb
+C:\Users\Lexicon\source\repos\JS Golf\JS-Golf\JS Golf\obj\Debug\JS Golf.csprojResolveAssemblyReference.cache
+C:\Users\Lexicon\source\repos\JS Golf\JS-Golf\JS Golf\obj\Debug\JS Golf.csproj.CoreCompileInputs.cache
+C:\Users\Lexicon\source\repos\JS Golf\JS-Golf\JS Golf\obj\Debug\JS Golf.exe
+C:\Users\Lexicon\source\repos\JS Golf\JS-Golf\JS Golf\obj\Debug\JS Golf.pdb
